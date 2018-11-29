@@ -2,18 +2,18 @@
 
 ## Crear el registro -> smtp A 192.168.4.1
 
-´´´sh
+```sh
 gestionDNS.py -a -dir smtp 192.168.4.1
-´´´
+```
 
 ## Crear el registro -> correo CNAME smtp
 
-´´´sh
+```sh
 gestionDNS.py -a -alias correo smtp
-´´´
+```
 
 ## Borrar el último registro
 
-´´´sh
+```sh
 gestionDNS.py -b correo
-´´´
+```
